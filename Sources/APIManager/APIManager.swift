@@ -19,7 +19,7 @@ public enum Result<T> {
 }
 
 public class APIManager{
-    init() {}
+    public init() {}
     public func requestData<T: Decodable>(strUrl: String,
                                    type: RequestType = .GET,
                                    objectType: T.Type,
